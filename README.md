@@ -2,7 +2,7 @@
 
 Sistema web desenvolvido em **PHP nativo + MySQL** para personal trainers gerenciarem alunos, fichas de treino e mensalidades.
 
-Projeto Final de Curso – [Nome da Escola/Curso]
+Projeto Final de Curso – SESI
 
 ---
 
@@ -12,7 +12,7 @@ Projeto Final de Curso – [Nome da Escola/Curso]
 - CRUD completo de **Alunos**
 - CRUD completo de **Fichas de Treino**
 - Dashboard com indicadores
-- Controle de sessão e segurança básica (Prepared Statements)
+- Controle de sessão e segurança básica
 
 ---
 
