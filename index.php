@@ -50,6 +50,9 @@
 
     $usuario = $_POST['usuario'] ?? '';
     $senha = $_POST['senha'] ?? '';
+
+    // Teste pra ver se ta pegando
+    echo" seu usuario é: {$usuario} e a senha é: {$senha}";
     ?>
 
 </body>
