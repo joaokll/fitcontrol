@@ -5,21 +5,21 @@
             "Ic\\Fitcontrol\\": "src/"
         },
         "files": [
-            "src/conexao.php",
-            "src/footer.php",
-            "src/header.php",
-            "src/login.php",
-            "src/logout.php",
-            "src/trava_login.php",
-            "src/app/alunos_cadastrar.php",
-            "src/app/alunos_deletar.php",
-            "src/app/alunos_editar.php",
-            "src/app/alunos_listar.php",
+            "src/config/conexao.php",
+            "src/template/footer.php",
+            "src/template/header.php",
+            "src/auth/login.php",
+            "src/auth/logout.php",
+            "src/auth/trava_login.php",
+            "src/app/alunos/alunos_cadastrar.php",
+            "src/app/alunos/alunos_deletar.php",
+            "src/app/alunos/alunos_editar.php",
+            "src/app/alunos/alunos_listar.php",
             "src/app/dashboard.php",
-            "src/app/fichas_cadastrar.php",
-            "src/app/fichas_deletar.php",
-            "src/app/fichas_editar.php",
-            "src/app/fichas_listar.php"
+            "src/app/fichas/fichas_cadastrar.php",
+            "src/app/fichas/fichas_deletar.php",
+            "src/app/fichas/fichas_editar.php",
+            "src/app/fichas/fichas_listar.php"
         ]
     },
     "authors": [
