@@ -1,0 +1,32 @@
+{
+    "name": "ic/fitcontrol",
+    "autoload": {
+        "psr-4": {
+            "Ic\\Fitcontrol\\": "src/"
+        },
+        "files": [
+            "src/conexao.php",
+            "src/footer.php",
+            "src/header.php",
+            "src/login.php",
+            "src/logout.php",
+            "src/trava_login.php",
+            "src/app/alunos_cadastrar.php",
+            "src/app/alunos_deletar.php",
+            "src/app/alunos_editar.php",
+            "src/app/alunos_listar.php",
+            "src/app/dashboard.php",
+            "src/app/fichas_cadastrar.php",
+            "src/app/fichas_deletar.php",
+            "src/app/fichas_editar.php",
+            "src/app/fichas_listar.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "bluecatcom",
+            "email": "262645688+bluecatcom@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
