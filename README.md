@@ -18,6 +18,7 @@ Projeto Final de Curso – SESI
 
 ## Estrutura
 
+```text
 ├── README.md
 ├── banco.sql
 ├── composer.json
@@ -54,7 +55,7 @@ Projeto Final de Curso – SESI
         ├── autoload_static.php
         ├── installed.json
         └── installed.php
-
+```
 4 directories, 32 files
 
 ---
