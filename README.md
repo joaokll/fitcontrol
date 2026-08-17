@@ -16,6 +16,49 @@ Projeto Final de Curso – SESI
 
 ---
 
+## Estrutura
+
+├── README.md
+├── banco.sql
+├── composer.json
+├── composer.lock
+├── index.php
+├── src
+│   ├── app
+│   │   ├── alunos_cadastrar.php
+│   │   ├── alunos_deletar.php
+│   │   ├── alunos_editar.php
+│   │   ├── alunos_listar.php
+│   │   ├── dashboard.php
+│   │   ├── fichas_cadastrar.php
+│   │   ├── fichas_deletar.php
+│   │   ├── fichas_editar.php
+│   │   └── fichas_listar.php
+│   ├── conexao.php
+│   ├── footer.php
+│   ├── header.php
+│   ├── login.php
+│   ├── logout.php
+│   └── trava_login.php
+└── vendor
+    ├── autoload.php
+    └── composer
+        ├── ClassLoader.php
+        ├── InstalledVersions.php
+        ├── LICENSE
+        ├── autoload_classmap.php
+        ├── autoload_files.php
+        ├── autoload_namespaces.php
+        ├── autoload_psr4.php
+        ├── autoload_real.php
+        ├── autoload_static.php
+        ├── installed.json
+        └── installed.php
+
+4 directories, 32 files
+
+---
+
 ## Tecnologias
 
 - PHP 8+
