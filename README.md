@@ -19,6 +19,7 @@ Projeto Final de Curso – SESI
 ## Estrutura
 
 ```text
+.
 ├── README.md
 ├── banco.sql
 ├── composer.json
@@ -26,21 +27,27 @@ Projeto Final de Curso – SESI
 ├── index.php
 ├── src
 │   ├── app
-│   │   ├── alunos_cadastrar.php
-│   │   ├── alunos_deletar.php
-│   │   ├── alunos_editar.php
-│   │   ├── alunos_listar.php
+│   │   ├── alunos
+│   │   │   ├── alunos_cadastrar.php
+│   │   │   ├── alunos_deletar.php
+│   │   │   ├── alunos_editar.php
+│   │   │   └── alunos_listar.php
 │   │   ├── dashboard.php
-│   │   ├── fichas_cadastrar.php
-│   │   ├── fichas_deletar.php
-│   │   ├── fichas_editar.php
-│   │   └── fichas_listar.php
-│   ├── conexao.php
-│   ├── footer.php
-│   ├── header.php
-│   ├── login.php
-│   ├── logout.php
-│   └── trava_login.php
+│   │   └── fichas
+│   │       ├── fichas_cadastrar.php
+│   │       ├── fichas_deletar.php
+│   │       ├── fichas_editar.php
+│   │       └── fichas_listar.php
+│   ├── auth
+│   │   ├── login.php
+│   │   ├── logout.php
+│   │   └── trava_login.php
+│   ├── config
+│   │   └── conexao.php
+│   ├── template
+│   │   ├── footer.php
+│   │   └── header.php
+│   └── trash.md
 └── vendor
     ├── autoload.php
     └── composer
@@ -56,7 +63,7 @@ Projeto Final de Curso – SESI
         ├── installed.json
         └── installed.php
 ```
-4 directories, 32 files
+9 directories, 33 files
 
 ---
 
