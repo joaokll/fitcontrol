@@ -13,21 +13,31 @@
     <div>
         <h1>Inscreva-se no FitControl</h1>
         <div>
-            <label for="email">Email*</label><br>
-            <input type="email" id="email" placeholder="E-mail"><br><br>
+            <form method="POST">
+                <label for="email">Email*</label><br>
+                <input type="email" name="email" id="email" placeholder="E-mail" ><br><br>
 
-            <label for="senha">Senha*</label><br>
-            <input type="password" id="senha" placeholder="Senha"><br><br>
+                <label for="senha">Senha*</label><br>
+                <input type="password" name="senha" id="senha" placeholder="Senha"><br><br>
 
-            <label for="nome-usuario">Nome de usuário*</label><br>
-            <input type="text" id="nome-usuario" placeholder="Nome de usuário"><br><br>
+                <label for="nome-usuario">Nome de usuário*</label><br>
+                <input type="text" name="nome-usuario" id="nome-usuario" placeholder="Nome de usuário"><br><br>
 
-            <label for="cpf">CPF</label><br>
-            <input type="text" id="cpf" placeholder="123.456.789.10"><br><br>
+                <label for="cpf">CPF</label><br>
+                <input type="text" name="cpf" id="cpf" placeholder="123.456.789.10"><br><br>
 
-            <button for="butao-criar-conta">Enviar Dados</button>
-
+                <button class="butao-criar-conta" type="submit">Enviar Dados</button>
+            </form>
         </div>
     </div>
 </body>
 </html>
+
+<?php
+
+$email = $_POST["email"] ?? '';
+$senha = $_POST["senha"] ?? '';
+$nome_aluno = $_POST["nome-usuario"] ?? '';
+$cpf = $_POST['cpf'] ?? '';
+
+?> 
