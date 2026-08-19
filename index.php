@@ -17,7 +17,6 @@
 
     
     <?php
-    require __DIR__ . '/vendor/autoload.php';
     $entrarOpcao = $_GET['entrar'] ?? '';
 
     switch ($entrarOpcao) {
