@@ -5,12 +5,14 @@
             "Ic\\Fitcontrol\\": "src/"
         },
         "files": [
+            "index.php",
             "src/config/conexao.php",
             "src/template/footer.php",
             "src/template/header.php",
             "src/auth/login.php",
             "src/auth/logout.php",
-            "src/auth/trava_login.php",
+            "src/auth/autenticar.php",
+            "src/auth/registrar.php",
             "src/app/alunos/alunos_cadastrar.php",
             "src/app/alunos/alunos_deletar.php",
             "src/app/alunos/alunos_editar.php",
