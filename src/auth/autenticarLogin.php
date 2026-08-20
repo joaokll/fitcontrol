@@ -2,7 +2,7 @@
 
 session_start();
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once 'conexao.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);

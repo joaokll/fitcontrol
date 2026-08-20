@@ -12,9 +12,9 @@ session_start();
     <title>Login</title>
 </head>
 <body>
-    <form action="autenticar.php" method="POST">
+    <form action="autenticarLogin.php" method="POST">
         
-        <div>    
+        <div> 
             <label>
             Email: 
             </label>
@@ -25,7 +25,7 @@ session_start();
             </label>
             <input type="password" name="password" required> <br> </br>
 
-            <button type="subtmit">
+            <button type="submit">
             Entrar
             </button> <br> </br>
         </div>
