@@ -102,3 +102,10 @@ VALUES
 (3, 150.00, '2026-08-05', '2026-08-04', 'pago'),
 (4, 150.00, '2026-08-20', NULL, 'pendente');
 
+https://www.svgrepo.com/collection/nonicons-programming-icons/
+
+https://www.svgrepo.com/collection/scarlab-solid-oval-interface-icons/
+
+https://www.svgrepo.com/collection/start-universal-tiny-oval-icons/
+
+https://www.svgrepo.com/collection/software-mansion-curved-line-icons/
