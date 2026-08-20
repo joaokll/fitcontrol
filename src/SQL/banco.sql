@@ -9,7 +9,7 @@ CREATE TABLE usuarios (
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE,
     senha VARCHAR(255) NOT NULL,
-    tipo ENUM('personal', 'aluno') NOT NULL DEFAULT 'aluno'
+    tipo ENUM('personal', 'aluno', 'administrador') NOT NULL DEFAULT 'aluno'
 );
 
 CREATE TABLE alunos (
