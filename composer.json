@@ -1,33 +1,14 @@
 {
     "name": "ic/fitcontrol",
+    "description": "Sistema de gestão de alunos e fichas de treino",
     "autoload": {
         "psr-4": {
             "Ic\\Fitcontrol\\": "src/"
-        },
-        "files": [
-            "index.php",
-            "src/config/conexao.php",
-            "src/template/footer.php",
-            "src/template/header.php",
-            "src/auth/login.php",
-            "src/auth/logout.php",
-            "src/auth/autenticar.php",
-            "src/auth/registrar.php",
-            "src/app/alunos/alunos_cadastrar.php",
-            "src/app/alunos/alunos_deletar.php",
-            "src/app/alunos/alunos_editar.php",
-            "src/app/alunos/alunos_listar.php",
-            "src/app/dashboard.php",
-            "src/app/fichas/fichas_cadastrar.php",
-            "src/app/fichas/fichas_deletar.php",
-            "src/app/fichas/fichas_editar.php",
-            "src/app/fichas/fichas_listar.php"
-        ]
+        }
     },
     "authors": [
         {
-            "name": "bluecatcom",
-            "email": "262645688+bluecatcom@users.noreply.github.com"
+            "name": "bluecatcom"
         }
     ],
     "require": {}
