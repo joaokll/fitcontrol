@@ -40,7 +40,7 @@ CREATE TABLE fichas_treino (
     id INT AUTO_INCREMENT PRIMARY KEY,
     aluno_id INT NOT NULL,
     tipo ENUM('Full-body', 'Upper/lower AB', 'Upper/lower Full-body', 'PPL', 'ABC', 'ABCD', 'ABCDE', 'Bro split', 'PHUL', 'PHAT', 'arnold split') NOT NULL,
-    frequencia ENUM('1x', '2x', '3x', '4x', '5x', '6x', '7x');
+    frequencia ENUM('1x', '2x', '3x', '4x', '5x', '6x', '7x'),
     objetivo VARCHAR(150),
     data_inicio DATE NOT NULL,
     data_fim DATE,

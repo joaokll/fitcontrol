@@ -6,29 +6,46 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="autenticarRegistro.php    1" method="POST">
-        
-        <div>           
-            <label>
-            Email* 
-            </label>
-            <input type="email" name="email" required> <br> </br>
-
-            <label>
-            Senha*
-            </label>
-            <input type="password" name="password" required> <br> </br>
-
-            <label>
-            Nome de usuario*
-            </label>
-            <input type="email" name="nome" required> <br> </br>
-
-            <button type="submit">
-            Entrar
-            </button> <br> </br>
-        </div>
     
-    </form>
+<form action="autenticarRegistro.php" method="POST">
+
+    <div>
+
+        <label>
+            Email*
+        </label>
+
+        <input type="email" name="email" required>
+
+        <br><br>
+
+        <label>
+            Senha*
+        </label>
+
+        <input type="password" name="password" required>
+
+        <br><br>
+
+        <label>
+            Nome de usuário
+        </label>
+
+        <input type="text" name="nome" required>
+
+        <br><br>
+
+        <button type="submit">
+            Registrar
+        </button>
+
+        <input type="reset" value="Cancelar">
+
+    </div>
+
+</form>
+
 </body>
 </html>
+
+
