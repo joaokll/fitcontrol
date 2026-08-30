@@ -3,8 +3,7 @@
 session_start();
 
 session_unset();
-
 session_destroy();
 
-header("Location: /src/auth/login.php");
+header("Location: login.php");
 exit;
