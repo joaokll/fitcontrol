@@ -12,24 +12,20 @@ session_start();
     <title>Login</title>
 </head>
 <body>
-    <form action="autenticarLogin.php" method="POST">
-        
-        <div> 
-            <label>
-            Email: 
-            </label>
-            <input type="email" name="email" required> <br> </br>
-
-            <label>
-            Senha: 
-            </label>
-            <input type="password" name="password" required> <br> </br>
-
-            <button type="submit">
-            Entrar
-            </button> <br> </br>
+    <form action="authLogin.php" method="POST">
+        <div>
+            <label>E-mail</label>
+            <input type="email" name="email" required value="<?= htmlspecialchars($_POST['email'] ?? '') ?>">
         </div>
-    
+        <div>
+            <label>Senha</label>
+            <input type="password" name="senha" required>
+        </div>
+        <button type="submit">Entrar</button>
     </form>
+
+    <div>
+        Ainda não tem conta? <a href="registrar.php">Entre agora</a>
+    </div>
 </body>
 </html>
