@@ -61,11 +61,11 @@ require __DIR__ . '/header.php';
 <p><a href="fichas_view.php?id=<?= $ficha_id ?>">← Voltar para a ficha</a></p>
 
 <h1><?= $id ? 'Editar Exercício' : 'Novo Exercício' ?></h1>
-<p class="subtitle">Ficha: <?= htmlspecialchars($ficha['nome_ficha']) ?></p>
+<p>Ficha: <?= htmlspecialchars($ficha['nome_ficha']) ?></p>
 
 <div>
     <?php if ($erro) : ?>
-        <div class="alert alert-error"><?= htmlspecialchars($erro) ?></div>
+        <div><?= htmlspecialchars($erro) ?></div>
     <?php endif; ?>
 
     <form method="post">
