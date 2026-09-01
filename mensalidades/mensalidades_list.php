@@ -23,7 +23,7 @@ if ($aluno_id) {
                                   ORDER BY m.vencimento DESC")->fetchAll();
 }
 
-require __DIR__ . '/header.php';
+require __DIR__ . '/../header.php';
 
 $badges = [
     'pago' => 'badge-pago',

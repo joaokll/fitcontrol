@@ -21,7 +21,7 @@ if ($aluno_id) {
                             ORDER BY f.data_criacao DESC")->fetchAll();
 }
 
-require __DIR__ . '/header.php';
+require __DIR__ . '/../header.php';
 ?>
 
 <div>

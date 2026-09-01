@@ -3,7 +3,7 @@ require_once __DIR__ . '/../autenticacao/auth.php';
 
 $alunos = $pdo->query("SELECT * FROM alunos ORDER BY nome ASC")->fetchAll();
 
-require __DIR__ . '/header.php';
+require __DIR__ . '/../header.php';
 ?>
 
 <div>
