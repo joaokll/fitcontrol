@@ -92,7 +92,7 @@ require __DIR__ . '/../header.php';
 
         <div>
             <button type="submit">Salvar</button>
-            <a href="../fichas/fichas_view.php?id=<?= $ficha_id ?>">Cancelar</a>
+            <a href="/fitcontrol-master/fichas/fichas_view.php?id=<?= $ficha_id ?>">Cancelar</a>
         </div>
     </form>
 </div>
