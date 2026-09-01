@@ -11,10 +11,10 @@
 <header class="barra-superior">
     <div class="logo">FITControl</div>
     <nav>
-        <a href="/fitcontrol/dashboard.php">Dashboard</a>
-        <a href="/fitcontrol/alunos/alunos_list.php">Alunos</a>
-        <a href="/fitcontrol/mensalidades/mensalidades_list.php">Mensalidades</a>
-        <a href="/fitcontrol/fichas/fichas_list.php">Fichas de Treino</a>
+<a href="/fitcontrol-master/dashboard.php">Dashboard</a>
+<a href="/fitcontrol-master/alunos/alunos_list.php">Alunos</a>
+<a href="/fitcontrol-master/mensalidades/mensalidades_list.php">Mensalidades</a>
+<a href="/fitcontrol-master/fichas/fichas_list.php">Fichas de Treino</a>
     </nav>
     <div class="area-usuario">
         <?php if ($usuario_nome) : ?>
