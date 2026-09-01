@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $mensalidade = compact('aluno_id', 'valor', 'vencimento', 'status', 'data_pagamento');
 }
 
-require __DIR__ . '/header.php';
+require __DIR__ . '/../header.php';
 ?>
 
 <h1><?= $id ? 'Editar Mensalidade' : 'Nova Mensalidade' ?></h1>
@@ -101,4 +101,4 @@ require __DIR__ . '/header.php';
     </form>
 </div>
 
-<?php require __DIR__ . '/footer.php'; ?>
+<?php require __DIR__ . '/../footer.php'; ?>

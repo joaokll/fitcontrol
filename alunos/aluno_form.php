@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $aluno = compact('nome', 'email', 'telefone', 'data_nascimento', 'data_matricula', 'ativo');
 }
 
-require __DIR__ . '/header.php';
+require __DIR__ . '/../header.php';
 ?>
 
 <h1><?= $id ? 'Editar Aluno' : 'Novo Aluno' ?></h1>
@@ -82,4 +82,4 @@ require __DIR__ . '/header.php';
     </form>
 </div>
 
-<?php require __DIR__ . '/footer.php'; ?>
+<?php require __DIR__ . '/../footer.php'; ?>

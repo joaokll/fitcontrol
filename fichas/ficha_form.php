@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $ficha = compact('aluno_id', 'nome_ficha', 'objetivo', 'data_criacao');
 }
 
-require __DIR__ . '/header.php';
+require __DIR__ . '/../header.php';
 ?>
 
 <h1><?= $id ? 'Editar Ficha de Treino' : 'Nova Ficha de Treino' ?></h1>
@@ -91,4 +91,4 @@ require __DIR__ . '/header.php';
     </form>
 </div>
 
-<?php require __DIR__ . '/footer.php'; ?>
+<?php require __DIR__ . '/../footer.php'; ?>

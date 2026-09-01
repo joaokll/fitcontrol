@@ -54,4 +54,4 @@ require __DIR__ . '/../header.php';
     <?php endif; ?>
 </div>
 
-<?php require __DIR__ . '/footer.php'; ?>
+<?php require __DIR__ . '/../footer.php'; ?>

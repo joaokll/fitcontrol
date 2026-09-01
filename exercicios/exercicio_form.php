@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $exercicio = compact('nome', 'series', 'repeticoes', 'carga', 'observacao');
 }
 
-require __DIR__ . '/header.php';
+require __DIR__ . '/../header.php';
 ?>
 
 <p><a href="../fichas/fichas_view.php?id=<?= $ficha_id ?>">← Voltar para a ficha</a></p>
@@ -97,4 +97,4 @@ require __DIR__ . '/header.php';
     </form>
 </div>
 
-<?php require __DIR__ . '/footer.php'; ?>
+<?php require __DIR__ . '/../footer.php'; ?>

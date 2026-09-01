@@ -23,7 +23,7 @@ $stmt = $pdo->prepare('SELECT * FROM exercicios WHERE ficha_id = ? ORDER BY id A
 $stmt->execute([$id]);
 $exercicios = $stmt->fetchAll();
 
-require __DIR__ . '/header.php';
+require __DIR__ . '/../header.php';
 ?>
 
 <p><a href="fichas_list.php">← Voltar para fichas de treino</a></p>
@@ -85,4 +85,4 @@ require __DIR__ . '/header.php';
     <?php endif; ?>
 </div>
 
-<?php require __DIR__ . '/footer.php'; ?>
+<?php require __DIR__ . '/../footer.php'; ?>
