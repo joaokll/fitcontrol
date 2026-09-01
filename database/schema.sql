@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS fitcontrol CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE academia_db;
+USE fitcontrol;
 
 
 CREATE TABLE IF NOT EXISTS usuarios (
