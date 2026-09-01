@@ -10,5 +10,5 @@ if ($id) {
     $stmt->execute([$id]);
 }
 
-header('Location: ../fichas/fichas_view.php?id=' . $ficha_id . '&msg=' . urlencode('Exercício excluído com sucesso.'));
+header('Location: ../fichas/ficha_view.php?id=' . $ficha_id . '&msg=' . urlencode('Exercício excluído com sucesso.'));
 exit;
