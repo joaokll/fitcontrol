@@ -8,11 +8,13 @@ Projeto Final de Curso – SESI
 
 ## Funcionalidades
 
-- Login com níveis de acesso (Personal e Aluno)
-- CRUD completo de **Alunos**
-- CRUD completo de **Fichas de Treino**
-- Dashboard com indicadores
-- Controle de sessão e segurança básica
+
+- Login, Registro e Logout com senha criptografada
+- Alunos: cadastro, edição, exclusão e listagem
+- Mensalidades: vinculadas a um aluno, com valor, vencimento, status de pago, pendente ou atrasado
+- Fichas de treino: vinculadas a um aluno, cada ficha pode ter vários exercícios.
+- Dashboard com resumo do total de alunos ativos, mensalidades pendentes, fichas cadaastradas, valor recebido no mês
+
 
 ---
 
@@ -79,5 +81,22 @@ Projeto Final de Curso – SESI
 ## Como rodar o projeto
 
 1. Clone o repositório:
+
 ```bash
 git clone https://github.com/SEU-USUARIO/fitcontrol.git
+```
+
+2. Crie o banco de dados
+Importe o `schema.sql` no MySQL/MariaDB:
+
+3. Suba o servidor PHP
+Com o PHP instalado, na pasta do projeto rode:
+
+```bash
+php -S localhost:8000
+```
+
+Depois acesse **http://localhost:8000** no navegador.
+
+4. Cria sua conta
+Acesse `register.php` (ou clique em "Cadastre-se" na tela de login) para criar o primeiro usuário do sistema. Depois é só fazer login normalmente.
