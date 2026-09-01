@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 require __DIR__ . '/../header.php';
 ?>
 
-<p><a href="../fichas/fichas_view.php?id=<?= $ficha_id ?>">← Voltar para a ficha</a></p>
+<p><a href="../fichas/ficha_view.php?id=<?= $ficha_id ?>">← Voltar para a ficha</a></p>
 
 <h1><?= $id ? 'Editar Exercício' : 'Novo Exercício' ?></h1>
 <p>Ficha: <?= htmlspecialchars($ficha['nome_ficha']) ?></p>
@@ -92,7 +92,7 @@ require __DIR__ . '/../header.php';
 
         <div>
             <button type="submit">Salvar</button>
-            <a href="/fitcontrol-master/fichas/fichas_view.php?id=<?= $ficha_id ?>">Cancelar</a>
+            <a href="/fitcontrol-master/fichas/ficha_view.php?id=<?= $ficha_id ?>">Cancelar</a>
         </div>
     </form>
 </div>
