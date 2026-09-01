@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $stmt = $pdo->prepare('INSERT INTO exercicios (ficha_id, nome, series, repeticoes, carga, observacao) VALUES (?, ?, ?, ?, ?, ?)');
             $stmt->execute([$ficha_id, $nome, $series, $repeticoes, $carga, $observacao]);
         }
-        header('Location: /fitcontrol-master/fichas/fichas_view.php?id=' . $ficha_id . '&msg=' . urlencode('Exercício salvo com sucesso!'));
+        header('Location: /fitcontrol-master/fichas/ficha_view.php?id=' . $ficha_id . '&msg=' . urlencode('Exercício salvo com sucesso!'));
         exit;
     }
     $exercicio = compact('nome', 'series', 'repeticoes', 'carga', 'observacao');
